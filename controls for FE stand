@@ -1,0 +1,17 @@
+local ScreenGui = Instance.new("ScreenGui")
+local TextLabel = Instance.new("TextLabel")
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+TextLabel.Parent = ScreenGui
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(9.31322575e-10, 0, 0.10753879, 0)
+TextLabel.Size = UDim2.new(0, 214, 0, 195)
+TextLabel.Font = Enum.Font.Nunito
+TextLabel.Text = " Q - Summon/Unsummon\\n E - Barrage - Throws Punches\\n R - Mech Legs Walk - (when you spam the key) press \"Q\" to reset the stand\\n T - Blackhole - Sucks people and things in a blackhole\\n F - Arm Teleport - Your arm goes forward and teleports you\\n G - Long Neck - Makes your neck very long\\n H - Cape - Stand transforms into a cape and makes you quicker\\n J - Dance - The stand starts dancing next to you\\n Z - Stand Idle 1 - The stand stays at the same pose\\n X - Stand Idle 2 - You walk very slow on top of the stand\\n C - Dash Forward - The stand gives you a massive push and boost you forward\\n V - Throne - The stand transforms into a throne for you\\n B - Stand Idle 3 - The stand stands with its arms crossed behind you"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel.TextYAlignment = Enum.TextYAlignment.Top
